@@ -1,7 +1,6 @@
 package hiber.dao;
 
 import hiber.model.User;
-
 import java.util.List;
 
 public interface UserDao {
@@ -10,6 +9,4 @@ public interface UserDao {
     List<User> getListUsers();
 
     public User getFrom(String model, int series);
-
-
 }
